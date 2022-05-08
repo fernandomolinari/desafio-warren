@@ -29,14 +29,7 @@ public class teste03 {
 			for (int num : otherNumbers) {
 				if (num == diference) {
 					list.add(diference);
-				} // else {
-					// counter = (diference + greatestNumber) / num;
-					// System.out.println(num);
-					// if (num != 1 && ((diference + greatestNumber) % num == 0)) {
-					// list.remove(0);
-					// for (int i = 0; i < counter; i++) {
-					// list.add(num);
-					// }
+				}
 			}
 		}
 		System.out.println(list);
